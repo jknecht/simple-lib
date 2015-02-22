@@ -12,7 +12,7 @@
   	</dependency>
   </dependencies>
   <scm>
-  	<url>scm:git:git@github.com:jknecht/simple-lib.git</url>
-  	<connection>scm:git:git@github.com:jknecht/simple-lib.git</connection>
+  	<url>scm:git:https://github.com/jknecht/simple-lib.git</url>
+  	<connection>scm:git:https://github.com/jknecht/simple-lib.git</connection>
   </scm>
 </project>
