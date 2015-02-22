@@ -1,6 +1,6 @@
 package com.slalom.simplelib;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -15,7 +15,7 @@ public class HelloWorldProviderTest {
 	
 	@Test
 	public void shouldSayHelloToTheWorld() {
-		assertEquals("Hello, World!", provider.sayHelloWorld());
+		assertTrue(provider.sayHelloWorld().contains("Hello, World!"));
 	}
 
 }
